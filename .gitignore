@@ -1,0 +1,19 @@
+# Ignore virtual environments
+venv/
+env/
+.env/
+.venv/
+.venv_mlflowtest/
+
+# Ignore environment variable files
+*.env
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore DVC cache if not shared
+.dvc/cache/
